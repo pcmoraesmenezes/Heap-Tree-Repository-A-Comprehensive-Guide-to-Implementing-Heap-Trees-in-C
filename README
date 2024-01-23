@@ -1,0 +1,60 @@
+# Heap Tree
+
+This C program implements a Heap Tree using an array-based representation. It provides functionality to insert elements, remove elements, search for elements, and view the current state of the Heap Tree.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Usage](#usage)
+- [Functions](#functions)
+- [How to Run](#how-to-run)
+
+## Overview
+
+The program defines a `HeapTree` structure with an array to represent the Heap Tree. Users can interact with the program through a simple console-based interface, choosing options to view the heap, insert a value, remove an element, perform a search, or exit the program.
+
+## Usage
+
+1. **View the Heap Tree (`1`):** Displays the current state of the Heap Tree.
+
+2. **Insert a Value (`2`):** Adds a specified value to the Heap Tree.
+
+3. **Remove an Element (`3`):** Removes a specified element from the Heap Tree.
+
+4. **Perform a Search (`4`):** Searches for a specified value in the Heap Tree.
+
+5. **Exit (`5`):** Exits the program.
+
+## Functions
+
+### 1. `insertHeap(int value, HeapTree *p)`
+
+Inserts a value into the Heap Tree.
+
+### 2. `printHeap(HeapTree *p)`
+
+Prints the current state of the Heap Tree.
+
+### 3. `search(HeapTree *p, int value)`
+
+Searches for a value in the Heap Tree.
+
+### 4. `removeHeap(HeapTree *p, int value)`
+
+Removes a specified value from the Heap Tree.
+
+## How to Run
+
+1. Compile the program:
+
+   ```bash
+   gcc heap_tree.c -o heap_tree
+   ```
+
+2. Run the executable:
+
+   ```bash
+   ./heap_tree
+   ```
+
+3. Follow the on-screen instructions to interact with the Heap Tree.
